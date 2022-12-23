@@ -1,3 +1,91 @@
-h1{
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.top-header{
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}.logo{
+    width: 20%;
+}
+.nav-bar{
+    width: 35%;
+    padding: 10px;
+}
+.nav-bar ul li{
+    list-style: none;
+    float: left;
+    padding: 10px;
+}.nav-bar ul li a{
+    font-weight: bold;
+    width: 20%;
+    text-decoration: none;
+    color: black;
+    display: block;
+}.nav-bar ul li a:hover{
+    color: crimson;
+}
+.search-bar {
+    width: 41%;
+    float: right;
+}
+.search-bar input.top-src {
+    float: right;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+}.middle-container{
+    background: #dddddd38;
+    display: flex;
+    padding: 10px;
+}
+.dec-text{
+    width: 50%;
+    padding-left: 50px;
+}.dec-text h1 {
+    padding: 53px;
+    font-size: 76px;
+    font-family: sans-serif;
+}button.con-me {
+    padding: 20px 40px;
+    border-radius: 11px;
+    border: none;
+    color: #fff;
+    background: crimson;
+    font-weight: bold;
+}.share-ex {
+    padding-top: 50px;
+}
+
+.happy-client {
+    float: left;
+    width: 35%;
+    padding: 15px;
+}
+.happy-client h2 {
+    font-size: 50px;
+}.pro-com h2{
+    font-size: 50px;
+}.pro-com {
+    padding: 15px;
+}
+/*services section*/
+.service-title {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}.service-title span {font-size: 20px;font-weight: bold;}
+.service-title h1 {
+    font-family: initial;
+    font-size: 60px;
+}.service-title p {
+    font-size: 18px;
+}section.services {
+    padding: 70px;
+    display: flex;
 }
